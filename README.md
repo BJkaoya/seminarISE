@@ -3,5 +3,5 @@ This repository contains codes for the BSB Recommender, a Linked Open Data enabl
 
 Three parts are included: 
 1. data preprocessing
-2. 
+2. results generation
 3. web application

@@ -52,7 +52,7 @@ class ItemController extends Controller
         $uri = Yii::$app->request->get('uri');
         $arr = explode('/', $uri);
         $bvKey = str_replace('>', '', end($arr));
-        //关联查询结果
+        //link to query result
 
         $query = Bv::find()
             ->where(["like", 'uri', $bvKey]);
@@ -62,7 +62,7 @@ class ItemController extends Controller
 
         $data = $query->offset($pagination->offset)
             ->limit($pagination->limit)
-            ->orderBy(["score" => SORT_ASC])
+            ->orderBy(["rank" => SORT_ASC])
             ->all();
 
         return [
@@ -80,7 +80,7 @@ class ItemController extends Controller
         //score 排序大到小
         $query = Bv::find();
 
-        $query->orderBy(["score" => SORT_ASC]);
+        $query->orderBy(["rank" => SORT_ASC]);
         return $query->all();
     }
 

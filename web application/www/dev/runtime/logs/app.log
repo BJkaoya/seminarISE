@@ -29281,3 +29281,106 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1549390305.2967
     'REQUEST_TIME' => 1549390305
 ]
+2019-03-24 07:02:22 [127.0.0.1][-][-][error][yii\db\Exception] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'score' in 'order clause' in D:\web\www\lib\yii2-advanced\vendor\yiisoft\yii2\db\Command.php:1217
+Stack trace:
+#0 D:\web\www\lib\yii2-advanced\vendor\yiisoft\yii2\db\Command.php(1217): PDOStatement->execute()
+#1 D:\web\www\lib\yii2-advanced\vendor\yiisoft\yii2\db\Command.php(1107): yii\db\Command->internalExecute('SELECT * FROM `...')
+#2 D:\web\www\lib\yii2-advanced\vendor\yiisoft\yii2\db\Command.php(396): yii\db\Command->queryInternal('fetchAll', NULL)
+#3 D:\web\www\lib\yii2-advanced\vendor\yiisoft\yii2\db\Query.php(218): yii\db\Command->queryAll()
+#4 D:\web\www\lib\yii2-advanced\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all(NULL)
+#5 D:\web\www\dev\models\BvQuery.php(23): yii\db\ActiveQuery->all(NULL)
+#6 D:\web\www\dev\controllers\ItemController.php(66): app\models\BvQuery->all()
+#7 [internal function]: dev\controllers\ItemController->actionResult('1', '20')
+#8 D:\web\www\lib\yii2-advanced\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 D:\web\www\lib\yii2-advanced\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#10 D:\web\www\lib\yii2-advanced\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('result', Array)
+#11 D:\web\www\lib\yii2-advanced\vendor\yiisoft\yii2\web\Application.php(105): yii\base\Module->runAction('item/result', Array)
+#12 D:\web\www\lib\yii2-advanced\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 D:\web\www\dev\web\index.php(18): yii\base\Application->run()
+#14 {main}
+
+Next yii\db\Exception: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'score' in 'order clause'
+The SQL being executed was: SELECT * FROM `bv` WHERE `uri` LIKE '%BV000297516%' ORDER BY `score` LIMIT 20 in D:\web\www\lib\yii2-advanced\vendor\yiisoft\yii2\db\Schema.php:595
+Stack trace:
+#0 D:\web\www\lib\yii2-advanced\vendor\yiisoft\yii2\db\Command.php(1222): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM `...')
+#1 D:\web\www\lib\yii2-advanced\vendor\yiisoft\yii2\db\Command.php(1107): yii\db\Command->internalExecute('SELECT * FROM `...')
+#2 D:\web\www\lib\yii2-advanced\vendor\yiisoft\yii2\db\Command.php(396): yii\db\Command->queryInternal('fetchAll', NULL)
+#3 D:\web\www\lib\yii2-advanced\vendor\yiisoft\yii2\db\Query.php(218): yii\db\Command->queryAll()
+#4 D:\web\www\lib\yii2-advanced\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all(NULL)
+#5 D:\web\www\dev\models\BvQuery.php(23): yii\db\ActiveQuery->all(NULL)
+#6 D:\web\www\dev\controllers\ItemController.php(66): app\models\BvQuery->all()
+#7 [internal function]: dev\controllers\ItemController->actionResult('1', '20')
+#8 D:\web\www\lib\yii2-advanced\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 D:\web\www\lib\yii2-advanced\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#10 D:\web\www\lib\yii2-advanced\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('result', Array)
+#11 D:\web\www\lib\yii2-advanced\vendor\yiisoft\yii2\web\Application.php(105): yii\base\Module->runAction('item/result', Array)
+#12 D:\web\www\lib\yii2-advanced\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 D:\web\www\dev\web\index.php(18): yii\base\Application->run()
+#14 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'score' in 'order clause'
+)
+
+2019-03-24 07:02:22 [127.0.0.1][-][-][info][application] $_GET = [
+    'uri' => '<http://lod.b3kat.de/title/BV000297516>'
+    'page' => '1'
+    'pageSize' => '20'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'Phpstorm-6d94e068' => '46f193ab-3622-4d8f-bb54-3c40faf0b092'
+]
+
+$_SERVER = [
+    'PATH' => 'D:\\GAMS\\25.1;D:\\GAMS\\25.1\\gbin;D:\\java\\bin;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;D:\\node.js\\;C:\\Program Files\\Git\\cmd;C:\\Users\\Asus\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Asus\\AppData\\Roaming\\npm;D:\\Docker Toolbox;C:\\Users\\Asus\\AppData\\Local\\GitHubDesktop\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'C:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2128'
+    'PATH_TRANSLATED' => 'redirect:\\index.php\\result'
+    'PATH_INFO' => '/item/result'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php/item/result?uri=%3Chttp%3A%2F%2Flod.b3kat.de%2Ftitle%2FBV000297516%3E&page=1&pageSize=20'
+    'QUERY_STRING' => 'uri=%3Chttp%3A%2F%2Flod.b3kat.de%2Ftitle%2FBV000297516%3E&page=1&pageSize=20'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '49947'
+    'SCRIPT_FILENAME' => 'D:/web/www/dev/web/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/web/www/dev/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/web/www/dev/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'myrecommender.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_HOST' => 'myrecommender.com'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:8080/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,de;q=0.8'
+    'HTTP_COOKIE' => 'Phpstorm-6d94e068=46f193ab-3622-4d8f-bb54-3c40faf0b092'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php/item/result'
+    'REQUEST_TIME_FLOAT' => 1553382142.6271
+    'REQUEST_TIME' => 1553382142
+]

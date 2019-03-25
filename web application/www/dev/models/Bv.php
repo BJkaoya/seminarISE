@@ -34,11 +34,11 @@ class Bv extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['title', 'uri', 'uri_can','year', 'publisher', 'type', 'author', 'score', 'r1', 'r2', 'r3', 'r4', 'required'],
+            [['title', 'uri', 'uri_can','year', 'publisher', 'type', 'author', 'rank', 'r1', 'r2', 'r3', 'r4', 'required'],
             [['subject'], 'string'],
             [['title', 'uri', 'publisher', 'type', 'uri_can', 'r1',  'r3','author'], 'string', 'max' => 255],
             [['r2', 'r4'], 'string', 'max' => 1024],
-            [['year', 'score', 'same property'], 'int', 'max' => 50],
+            [['year', 'rank', 'same property'], 'int', 'max' => 50],
         ]];
     }
 
@@ -57,7 +57,7 @@ class Bv extends \yii\db\ActiveRecord
             'r1' => 'r1',
             'r2' => 'r2',
             'author' => 'Author',
-            'score' => 'Score',
+            'rank' => 'Rank',
             'r3' => 'r3',
             'r4' => 'r4',
         ];

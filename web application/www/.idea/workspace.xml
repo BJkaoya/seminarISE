@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="248759b6-8ecb-43b5-96f4-824cb615efe1" name="Default Changelist" comment="" />
+    <list default="true" id="248759b6-8ecb-43b5-96f4-824cb615efe1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../data/__MACOSX/._df_merge4_all_decode.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/Result.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/views/Result.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/controllers/ItemController.php" beforeDir="false" afterPath="$PROJECT_DIR$/dev/controllers/ItemController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/models/Bv.php" beforeDir="false" afterPath="$PROJECT_DIR$/dev/models/Bv.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/models/LoginForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/dev/models/LoginForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/runtime/debug/5c955910e1a81.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/runtime/debug/5c955911860ba.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/runtime/debug/5c95591214be1.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/runtime/debug/5c955912403ad.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/runtime/debug/5c9559517089e.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/runtime/debug/5c955951a7a44.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/runtime/debug/5c955952cd79e.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/runtime/debug/5c9559534c2d0.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/runtime/debug/5c9559536e4ad.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/runtime/debug/5c95595466362.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/runtime/debug/5c955958a993e.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/runtime/debug/index.data" beforeDir="false" afterPath="$PROJECT_DIR$/dev/runtime/debug/index.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/runtime/logs/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/dev/runtime/logs/app.log" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +47,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dev/models/LoginForm.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+            <state relative-caret-position="114">
+              <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
               <folding>
                 <element signature="e#30#38#0#PHP" expanded="true" />
               </folding>
@@ -39,8 +59,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dev/models/User.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+            <state relative-caret-position="-221">
+              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
               <folding>
                 <element signature="e#29#37#0#PHP" expanded="true" />
               </folding>
@@ -58,60 +78,44 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/yii2-advanced/requirements.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="3" lean-forward="true" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
-              <folding>
-                <element signature="e#6#367#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/yii2-advanced/Vagrantfile">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/yii2-advanced/yii">
+        <entry file="file://$PROJECT_DIR$/dev/models/BvQuery.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-              <folding>
-                <element signature="e#25#203#0#PHP" expanded="true" />
-              </folding>
-            </state>
+            <state relative-caret-position="-250" />
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/yii2-advanced/yii_test">
+        <entry file="file://$PROJECT_DIR$/dev/models/Bv.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-              <folding>
-                <element signature="e#25#203#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="629">
+              <caret line="54" column="39" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/yii2-advanced/init">
+        <entry file="file://$PROJECT_DIR$/dev/controllers/ItemController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-95" />
+            <state relative-caret-position="209">
+              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/dev/web/index.php" />
-        <option value="$PROJECT_DIR$/dev/models/Bv.php" />
         <option value="$PROJECT_DIR$/dev/models/Item.php" />
         <option value="$PROJECT_DIR$/dev/controllers/SiteController.php" />
         <option value="$PROJECT_DIR$/dev/config/dev.config.php" />
@@ -127,15 +131,18 @@
         <option value="$PROJECT_DIR$/dev/components/DCache.php" />
         <option value="$PROJECT_DIR$/dev/config/index.php" />
         <option value="$PROJECT_DIR$/dev/controllers/Controller.php" />
+        <option value="$PROJECT_DIR$/dev/models/LoginForm.php" />
+        <option value="$PROJECT_DIR$/dev/models/Bv.php" />
         <option value="$PROJECT_DIR$/dev/controllers/ItemController.php" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="948" />
     <option name="width" value="981" />
     <option name="height" value="1032" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -380,17 +387,17 @@
       <workItem from="1550436738633" duration="94000" />
       <workItem from="1553004781824" duration="2820000" />
       <workItem from="1553290173395" duration="384000" />
+      <workItem from="1553381872146" duration="919000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15354000" />
+    <option name="totallyTimeSpent" value="16273000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20291026" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23039612" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -403,13 +410,34 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49555376" visible="true" weight="0.2890071" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50444627" side_tool="true" visible="true" weight="0.2890071" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49474534" weight="0.28419182" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5052546" side_tool="true" weight="0.28419182" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10105093" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49474534" visible="true" weight="0.28419182" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5052546" side_tool="true" visible="true" weight="0.28419182" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -509,16 +537,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/controllers/ItemController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="e#117#135#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dev/controllers/SiteController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -529,15 +547,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/models/Bv.php">
+    <entry file="file://$PROJECT_DIR$/lib/yii2-advanced/init">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/yii2-advanced/yii_test">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="40" column="69" selection-start-line="40" selection-start-column="69" selection-end-line="40" selection-end-column="69" />
+        <state relative-caret-position="38">
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+          <folding>
+            <element signature="e#25#203#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/models/BvQuery.php">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/dev/models/Item.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -551,8 +572,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dev/models/LoginForm.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        <state relative-caret-position="114">
+          <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
           <folding>
             <element signature="e#30#38#0#PHP" expanded="true" />
           </folding>
@@ -561,8 +582,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dev/models/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        <state relative-caret-position="-221">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
           <folding>
             <element signature="e#29#37#0#PHP" expanded="true" />
           </folding>
@@ -578,10 +599,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/yii2-advanced/requirements.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="3" lean-forward="true" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+        <state relative-caret-position="-2107">
+          <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
           <folding>
             <element signature="e#6#367#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/yii2-advanced/yii">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+          <folding>
+            <element signature="e#25#203#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -589,29 +620,23 @@
     <entry file="file://$PROJECT_DIR$/lib/yii2-advanced/Vagrantfile">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/yii2-advanced/yii">
+    <entry file="file://$PROJECT_DIR$/dev/models/BvQuery.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-          <folding>
-            <element signature="e#25#203#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="-250" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/models/Bv.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="54" column="39" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/yii2-advanced/yii_test">
+    <entry file="file://$PROJECT_DIR$/dev/controllers/ItemController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-          <folding>
-            <element signature="e#25#203#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="209">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/yii2-advanced/init">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-95" />
       </provider>
     </entry>
   </component>
